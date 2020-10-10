@@ -1,0 +1,220 @@
+* {
+ text-decoration: none;
+  color: white;
+}
+
+body {
+  background-image: url('file:///C:/Users/%E7%9B%B8%E9%A6%AC%E6%98%A5%E8%B2%B4/Desktop/Programing/html/Visual%20Studio%20Code/1.code%E7%B7%B4%E7%BF%92/1.LP/techacademy_short.ver/photo/back-img.jpg');
+  background-size: cover;
+}
+
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 94%;
+ margin: 0 auto;
+ border-bottom: 1px solid white;
+ color: white;
+ padding: 24px 0;
+ font-size: 15px;
+ letter-spacing: 3px;
+ font-family: sans-serif;
+}
+
+header img {
+ width: 16%;
+}
+
+main {
+ width: 94%;
+ margin: 0 auto;
+}
+
+main h1 {
+text-align: center;
+font-size: 38px;
+letter-spacing: 5px;
+padding: 40px 0;
+}
+
+.container {
+ display: flex;
+ justify-content: space-between;
+ padding-bottom: 30px;
+}
+
+.row-left {
+ text-align: center;
+}
+
+.row-left p {
+ border-bottom: 1px solid white;
+ padding: 20px;
+ font-size: 17px;
+}
+
+.row-left-content {
+ display: flex;
+ padding: 20px 0;
+ justify-content: space-between;
+}
+
+.row-left-content li {
+ padding-bottom: 20px;
+}
+
+.row-right {
+ background-color: rgba(0, 0, 0, 0.2);
+ padding: 30px;
+ text-align: center;
+ width: 53%;
+}
+
+.row-right h2 {
+ font-size: 20px;
+ border-bottom: 3px solid 	#00CC00;
+ padding-bottom: 0.5rem;
+ position: relative;
+ letter-spacing: 3px;
+}
+
+.row-right h2:after {
+  border-color: 	#00CC00 transparent transparent transparent;
+  position: absolute;
+  bottom: -10px;
+  left: 48%;
+  width: 0;
+  height: 0;
+  content: '';
+  border-width: 10px 10px 0 10px;
+  border-style: solid;
+}
+
+.row-right h3 {
+ padding: 30px 0;
+ letter-spacing: 2px;
+}
+
+.row-right-text {
+ width: 70%;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.row-right-text p {
+ background-color: white;
+ color: rgba(0, 0, 0, 0.7);
+ border-radius: 50%;
+ padding: 5px;
+ margin-bottom: 20px;
+}
+
+.row-right-contents {
+ display: flex;
+ justify-content: space-between;
+}
+
+.row-right-content01, .row-right-content02 {
+ width: 46%;
+ text-align: left;
+}
+
+.row-right-content01 p {
+ padding: 10px 0;
+}
+
+.row-right-content01 input {
+ width: 100%;
+ padding: 10px 5px;
+ margin: 10px 0;
+ border-radius: 5px;
+}
+
+.row-right-content01 a {
+ font-size: 18px;
+ display: inline-block;
+ width: 100%;
+ text-align: center;
+ background-color: #00CC00;
+ border-radius: 5px;
+ padding: 13px 5px;
+ margin: 10px 0;
+}
+
+.row-right-content02 a {
+ display: inline-block;
+ background-color: white;
+ border-radius: 5px;
+ width: 100%;
+ margin-bottom: 20px;
+ padding: 15px 5px;
+ border: 1px solid #33FFFF;
+ color: black;
+ transition: .2s;
+}
+
+.row-right-content02 span {
+ font-size: 23px;
+ padding: 0 10px;
+}
+
+.fa-google {
+ color: black;
+}
+
+.fa-twitter {
+ color: #33FFFF;
+}
+
+.fa-facebook {
+ color: #3399FF;
+}
+
+.row-right-content02 a:hover {
+ opacity: .7;
+}
+
+.privacy {
+ margin: 30px 0;
+ font-size: 12px;
+ letter-spacing: 3px;
+}
+
+.privacy span {
+ color: #3399FF;
+}
+
+.footer-top {
+ display: flex;
+ justify-content: center;
+ background-color: #3399FF;
+ padding: 20px 0;
+}
+
+.footer-top img {
+ width: 30%;
+}
+
+.footer-top ul {
+ list-style: none;
+ padding-left: 20px;
+}
+
+.footer-top li {
+ font-size: 12px;
+ padding: 5px 0;
+}
+
+.footer-bottom {
+ background-color: #444444;
+ color: rgba(245, 245, 245, .6);
+}
+
+.footer-bottom p {
+ text-align: center;
+ padding: 30px 0;
+ font-size: 14px;
+}
